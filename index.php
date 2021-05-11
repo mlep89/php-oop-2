@@ -25,4 +25,7 @@
     $utente1->telefono = 3332211555;
     $utente1->nome = "Paolo";
 
-    echo $utente1-> nome;
+    
+    foreach($utente1 as $K => $properties) {
+        echo $K . ":" . "  " .  $properties . "<br>";
+    }
